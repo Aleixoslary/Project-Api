@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Rochester&display=swap');
+
+.bannerSection{
+    background-image: url('../../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+    margin: auto;
+}
+
+.bannerTxt{
+    padding-top: 15vw;
+    text-align: center;
+}
+
+.bannerTitle{
+    color:white;
+    padding-bottom: 5vw;
+    font-family: 'Rochester', cursive;
+    font-size: 5em;
+}
+
+.bannerBtn{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 1vw 2vw 1vw 2vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+   letter-spacing: 5px;
+}
+
+.bannerBtn:hover{
+    background-color: #c8f4f9;
+    color:#EE4794;
+    border: none;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+    font-size: 25px;
+    padding-left:5vw ;
+    font-family: "Roboto";
+}
+
+.menuIcon{
+    width: 2.5vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-left:30vw;
+
+}
+
+.menuIcon img{
+    margin-left: 3vw;
+}

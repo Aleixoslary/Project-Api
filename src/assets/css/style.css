@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+.Home{
+    background-color: #c8f4f9;
+}
+
+.titleHome{
+    padding-top
+    : 5vw;
+    padding-bottom: 5vw;
+    font-size: 5em;
+    font-family: 'Satisfy', cursive;
+
+    text-align: center;
+}

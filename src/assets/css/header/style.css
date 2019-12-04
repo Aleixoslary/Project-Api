@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+
+    }
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImg{
+    width: 7vw;
+    height: 7vw;
+    padding-left: 25vw;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding-right: 2vw; 
+}
+
+
