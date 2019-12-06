@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    background-color: pink;
+    align-content: center;
+    margin: auto;
+}
+
+.cardProducts{
+    padding: 5vw;
+}
+
+.textProduct{
+    font-family: "Roboto";
+    font-size: 1.5em;
+    font-weight: bolder;
+    
+}
+
+.cardProducts p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    font-family: "Roboto";
+}

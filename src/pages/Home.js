@@ -8,6 +8,7 @@ import Api from '../services/Api'
 
 import '../assets/css/style.css'
 
+import '../assets/css/home/home.css'
 
 class Home extends React.Component{
   constructor() {
@@ -17,11 +18,17 @@ class Home extends React.Component{
     }
   }
 
-  getProducts = async () =>{
+  async componentDidMount(){
     var response = await Api.get("/products");
     console.log(response.data)
     this.setState({listProducts : response.data.products});
   }
+
+  // getProducts = async () =>{
+  //   var response = await Api.get("/products");
+  //   console.log(response.data)
+  //   this.setState({listProducts : response.data.products});
+  // }
 
   render(){
   return (
@@ -30,14 +37,16 @@ class Home extends React.Component{
        <Banner/>
 
        <h1 className="titleHome">Shop Now!!</h1>
-      
-       <div className="products" >
+      {/* <button onClick={this.getProducts} className="btnHome">Ver produtos</button> */}
+       <div className="products">
           {
             this.state.listProducts.map((product, i)=>(
               <div key={i} className="cardProducts">
-                <p>{product.name}</p>
-                <p>{product.price}</p>
-                <p>{product.description}</p>
+
+                <span className="textProduct">Nome:</span><p>{product.name}</p>
+                <span className="textProduct">Preço:</span><p>{product.price}</p>
+                <span className="textProduct">Descrição:</span><p>{product.description}</p>
+
               </div>
             )
             )
